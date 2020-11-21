@@ -1,11 +1,14 @@
-
+import string
+import nltk
+import numpy
     
 dailyValue = 0
 usr = input("u gud? ")
+print(usr)
 if usr.lower() == "yes" or 'y':
     print("why")
     dailyValue = 1
-elif usr.lower() == "no" or 'n':
+else:
     dailyValue = 0
 
 if dailyValue == 1:
@@ -13,5 +16,3 @@ if dailyValue == 1:
 elif dailyValue == 0:
     print("you entered no")
 
-usr = input("That’s great! Tell me about it! \n")
-print("your response: ",usr)
