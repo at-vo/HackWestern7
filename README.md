@@ -3,11 +3,11 @@
 - concepts can be found in the docs/concepts folder
 - video of tests: [here!] (https://drive.google.com/drive/folders/1o7JTUsPwqDa0IiLz16dCu7lBYA7Tvyss?usp=sharing) 
 - source files for these tests can be found in the tests/ folder
-implemented:
+- implemented:
     - Using natural language processing to build an every day diary entry application that tracks personal progress
         - synonym checker between two words implemented but unused due to calculation constraints
     - Creates graphical representation of usage data
-unimplemented:
+- unimplemented:
     - creates personalized recommendations (for help) based on usage data
     - profile editting
     - dynamic calendar viewing of previous entries
