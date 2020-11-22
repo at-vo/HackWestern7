@@ -1,6 +1,7 @@
 # uGUD?
 **Please find related documents in the docs/ folder.**
 - concepts can be found in the docs/concepts folder
+- video of tests: [here!] (https://drive.google.com/drive/folders/1o7JTUsPwqDa0IiLz16dCu7lBYA7Tvyss?usp=sharing) 
 - source files for these tests can be found in the tests/ folder
 implemented:
     - Using natural language processing to build an every day diary entry application that tracks personal progress
