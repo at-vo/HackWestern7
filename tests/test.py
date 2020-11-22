@@ -3,6 +3,7 @@ import string
 import numpy
 import matplotlib.pyplot as plt
 
+### Synonym checker using nltk package
 # def check_synonym(word, sent):
 #     word_synonyms = []
 #     for synset in wn.synsets(word):
@@ -23,6 +24,8 @@ goodWords = 0
 badWords = 0
 neutralWords = 0
 
+# extract info from keywords.txt
+# make and fill dictionary
 kfile = open("keywords.txt", "r", encoding="utf‐8")
 dictk = {}
 words = kfile.readlines()
@@ -35,11 +38,13 @@ for i in range(len(words)):
     dictk [keyword] = sentimentvalue
 num = 0
 
-# phrase = input("what do you want to say?")
-phrase = "I’m afraid to work, but I’m also afraid to refuse unsafe work. I want to help, but I don’t want to get sick or die either. If all the health professionals get sick, who will care for the patients?"
+### REMOVE commented line for demo static string
+phrase = input("what do you want to say?")
+#phrase = "I’m afraid to work, but I’m also afraid to refuse unsafe work. I want to help, but I don’t want to get sick or die either. If all the health professionals get sick, who will care for the patients?"
 
 line = phrase.split(" ")
 
+# Calculate happiness score
 happinessScore = 0
 score = 0
 noofkeywords = 0
