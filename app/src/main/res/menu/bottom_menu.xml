@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/calendarFragment"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        android:title="Calendar" />
+    <item
+        android:id="@+id/metricsFragment"
+        android:icon="@drawable/ic_metrics"
+        android:title="Metrics" />
+    <item
+        android:id="@+id/add_entryFragment"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="Add Entry" />
+    <item
+        android:id="@+id/get_helpFragment"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Get Help" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_baseline_profile"
+        android:title="Profile" />
+</menu>
