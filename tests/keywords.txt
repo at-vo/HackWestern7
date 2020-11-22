@@ -1,4 +1,5 @@
 alone,1
+afraid,2
 amazed,10
 amazing,10
 bad,1
@@ -15,6 +16,10 @@ good,7
 great,7
 greatest,10
 haha,5
+don’t,4
+sick,3
+die,1
+care,7
 hahaha,5
 happy,10
 hate,1
@@ -22,6 +27,7 @@ hurt,1
 hurts,1
 hurting,1
 like,7
+help,8
 likes,7
 liked,7
 lol,5
@@ -39,10 +45,12 @@ positive,7
 pretty,10
 prettiest,10
 regret,1
+refuse,4
 regrets,1
 ruin,1
 ruins,1
 ruined,1
+unsafe,2
 sad,1
 save,5
 saves,5
@@ -52,3 +60,4 @@ thank,5
 thanks,5
 tired,1
 worst,1
+work,5
