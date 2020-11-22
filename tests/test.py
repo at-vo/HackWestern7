@@ -26,7 +26,7 @@ neutralWords = 0
 
 # extract info from keywords.txt
 # make and fill dictionary
-kfile = open("keywords.txt", "r", encoding="utf‐8")
+kfile = open("tests/keywords.txt", "r", encoding="utf‐8")
 dictk = {}
 words = kfile.readlines()
 for i in range(len(words)):
@@ -39,8 +39,8 @@ for i in range(len(words)):
 num = 0
 
 ### REMOVE commented line for demo static string
-phrase = input("what do you want to say?")
-#phrase = "I’m afraid to work, but I’m also afraid to refuse unsafe work. I want to help, but I don’t want to get sick or die either. If all the health professionals get sick, who will care for the patients?"
+# phrase = input("what do you want to say?")
+phrase = "I’m afraid to work, but I’m also afraid to refuse unsafe work. I want to help, but I don’t want to get sick or die either. If all the health professionals get sick, who will care for the patients?"
 
 line = phrase.split(" ")
 
